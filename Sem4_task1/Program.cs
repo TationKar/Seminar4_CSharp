@@ -4,9 +4,9 @@
 // sum = 1 + 2 + 3 + 4 + 5
 
 int GetSum(int n){
-    int sum = 1;
+    int sum = 0;
     for (int i = 1; i <= n; i++)
-        sum = sum + 1;
+        sum = sum + i;
     return sum;
 }
 Console.Clear();
