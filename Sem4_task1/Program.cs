@@ -3,11 +3,10 @@
 // a = 5
 // sum = 1 + 2 + 3 + 4 + 5
 
-
 int GetSum(int n){
-    int sum = 0;
+    int sum = 1;
     for (int i = 1; i <= n; i++)
-        sum += 1;
+        sum = sum + 1;
     return sum;
 }
 Console.Clear();
