@@ -26,3 +26,5 @@ int[] arrNum = ArrayRand();
 Console.WriteLine();
 printArr(arrNum);
 Console.WriteLine();
+
+//Console.WriteLine($"[{String.Join("; ---", array)}]");
